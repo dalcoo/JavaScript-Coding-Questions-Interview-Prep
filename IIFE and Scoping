@@ -1,0 +1,9 @@
+var foo="Hello";
+(function(){
+   var bar="World";
+  alert(foo+bar);
+})();
+alert(foo+bar);
+
+// first alert Hello World
+//second alert Reference Error(bar is confined to the scope of the IIFE anonymous function)
